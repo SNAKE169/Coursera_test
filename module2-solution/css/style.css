@@ -11,7 +11,9 @@ body {
     width: 100%;
 }
 
-
+* {
+    box-sizing: border-box;
+}
 .food {
     margin: 0;
     border: 1px solid black;
@@ -42,7 +44,7 @@ body {
     .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
         position: relative;
-        /* padding: 7px; */
+        padding: 7px;
     }
     .col-lg-1 {
         width: 8.33%;
